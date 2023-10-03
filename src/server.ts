@@ -7,4 +7,4 @@ app.use(cors())
 app.use(express.json());
 app.use(route)
 
-app.listen(5000||process.env.PORT,()=>console.log("server is running"))
+app.listen(process.env.PORT,()=>console.log("server is running"))
