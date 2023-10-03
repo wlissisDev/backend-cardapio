@@ -1,0 +1,12 @@
+GET http://localhost:5000/food
+content-type: application/json
+###
+
+POST http://localhost:5000/food
+content-type: application/json
+
+{
+    "name":"Comida",
+    "url":"http://url",
+    "price":25
+}
