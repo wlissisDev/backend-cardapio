@@ -1,8 +1,8 @@
-GET http://localhost:5000/food
+GET http://localhost:3000/food/d90d32fe-e7ec-4f36-9c2e-4eb661bb8a78
 content-type: application/json
 ###
 
-POST http://localhost:5000/food
+POST http://localhost:3000/food
 content-type: application/json
 
 {
@@ -10,3 +10,19 @@ content-type: application/json
     "url":"http://url",
     "price":25
 }
+
+###
+
+PUT http://localhost:3000/food/14bedf12-d5de-4973-b0bc-0fbbb94b15b6
+content-type: application/json
+
+{
+    "name":"Salada",
+    "url":"http://url",
+    "price":30
+}
+
+###
+
+DELETE  http://localhost:3000/food/14bedf12-d5de-4973-b0bc-0fbbb94b15b6
+content-type: application/json
